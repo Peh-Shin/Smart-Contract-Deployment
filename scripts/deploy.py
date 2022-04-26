@@ -7,8 +7,5 @@ def deploy_contract():
 def main():
     deploy_contract()
 
-def change():
-    return "test change"
-
 if __name__ == "__main__":
     main()
