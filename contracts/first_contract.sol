@@ -4,7 +4,7 @@ contract my_first_contract{
     
     // Setting visibility to private here as don't want getter functions to be created for the public variables
     // The variables should only be accessed through the functions itself 
-    uint private age;
+    uint private age;   
     string private name;
 
     function setName(string memory _name) public{

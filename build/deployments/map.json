@@ -1,6 +1,12 @@
 {
   "1337": {
+    "address_book": [
+      "0xCfEB869F69431e42cdB54A4F4f105C19C080A601"
+    ],
     "my_first_contract": [
+      "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24",
+      "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+      "0xb313ed578e332Ed34e3adFB74455Ae7fE910e893",
       "0x2152ec43e800693bd1bb46281C81bc5c4fD7aB74"
     ]
   }

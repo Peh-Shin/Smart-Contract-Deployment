@@ -1,7 +1,7 @@
-from brownie import my_first_contract, accounts
+from brownie import address_book, accounts
 
 def deploy_contract(): 
-    contract = my_first_contract.deploy({"from": accounts[0]})
+    contract = address_book.deploy({"from": accounts[0]})
     return contract
 
 def main():

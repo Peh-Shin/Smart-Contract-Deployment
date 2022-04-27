@@ -1,12 +1,15 @@
-from brownie import accounts, my_first_contract
+from brownie import accounts, address_book
+
 
 def write_to_contract():
-    contract = my_first_contract[-1]
-    name = contract.setName("Shin", {"from": accounts[0]})
-    print(name)
+    contract = address_book[-1]
+    name = contract.storeAddress("Shin", {"from": accounts[1]})
+    print(f"{name} transaction was successful!")
+
 
 def main():
     write_to_contract()
+
 
 if __name__ == "__main__":
     main()
